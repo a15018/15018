@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex IV"/>
+        <attribute name="authors" value="15018"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-18 01:04:12 "/>
+        <attribute name="created" value="MTUwMTg7Q0lTQ08tMTg7MjAyNi0wOS0xODsiMTI6MTQ6MjggIjsxOTc1"/>
+        <attribute name="edited" value="MTUwMTg7Q0lTQ08tMTg7MjAyNi0wOS0xODsiMDE6MDQ6MTIgIjsyOzIwNzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="11"/>
+            <while expression="numero &gt;= 10">
+                <output expression="&quot;escolha um numero de 1 a 9&quot;" newline="True"/>
+                <input variable="numero"/>
+                <if expression="numero &gt;= 10">
+                    <then>
+                        <output expression="&quot;es burro ou faz te&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </while>
+            <if expression="numero = 1">
+                <then>
+                    <output expression="&quot;I&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numero = 2">
+                <then>
+                    <output expression="&quot;II&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numero = 3">
+                <then>
+                    <output expression="&quot;III&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numero = 4">
+                <then>
+                    <output expression="&quot;IV&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numero = 5">
+                <then>
+                    <output expression="&quot;V&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numero = 6">
+                <then>
+                    <output expression="&quot;VI&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numero = 7">
+                <then>
+                    <output expression="&quot;VII&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numero = 8">
+                <then>
+                    <output expression="&quot;VIII&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="numero = 9">
+                <then>
+                    <output expression="&quot;IX&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
